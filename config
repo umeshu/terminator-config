@@ -1,0 +1,65 @@
+[global_config]
+  enabled_plugins = ActivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  title_transmit_bg_color = "#efefef"
+  inactive_color_offset = 0.84
+  title_transmit_fg_color = "#d10033"
+[keybindings]
+[profiles]
+  [[Monokai]]
+    palette = "#1a1a1a:#f4005f:#98e024:#e0d561:#9d65ff:#f4005f:#58d1eb:#f6f6ef:#98e024:#fa8419:#9d65ff:#f4005f:#58d1eb:#c4c5b5:#625e4c:#f4005f"
+    background_image = None
+    use_system_font = False
+    foreground_color = "#c4c5b5"
+    font = M+ 1m Medium 12
+    background_color = "#1a1a1a"
+  [[default]]
+    palette = "#000000:#cc0000:#4e9a06:#c4a000:#3465a4:#75507b:#06989a:#d3d7cf:#555753:#ef2929:#8ae234:#fce94f:#729fcf:#ad7fa8:#34e2e2:#eeeeec"
+    background_image = None
+    custom_command = zsh
+    use_system_font = False
+    foreground_color = "#ffffff"
+    font = Oxygen Mono 11
+  [[4bit]]
+    palette = "#000000:#b87a7a:#7ab87a:#b8b87a:#7a7ab8:#b87ab8:#7ab8b8:#d9d9d9:#262626:#dbbdbd:#bddbbd:#dbdbbd:#bdbddb:#dbbddb:#bddbdb:#ffffff"
+    background_image = None
+    use_system_font = False
+    foreground_color = "#d9e6f2"
+    font = Monaco 11
+    background_color = "#0d1926"
+  [[Tomorrow Night Bright]]
+    foreground_color = "#eaeaea"
+    palette = "#000000:#d54e53:#b9ca4a:#e7c547:#7aa6da:#c397d8:#70c0b1:#ffffff:#b9ca4a:#e7c547:#7aa6da:#c397d8:#70c0b1:#ffffff:#000000:#d54e53"
+    font = Anonymous Pro 13
+    use_system_font = False
+    background_image = None
+  [[Misterioso]]
+    palette = "#000000:#ff4242:#74cd68:#ffb929:#23d7d7:#ff37ff:#00ede1:#ffffff:#74af68:#ffad29:#338f86:#9414e6:#23d7d7:#e1e1e0:#555555:#ff3242"
+    background_image = None
+    background_darkness = 0.2
+    use_system_font = False
+    foreground_color = "#e1e1e0"
+    font = M+ 1m Medium 13
+    background_color = "#2d3743"
+  [[Terminal Basic]]
+    use_system_font = False
+    font = M+ 1m Medium 12
+    background_color = "#ffffff"
+    background_image = None
+    foreground_color = "#000000"
+  [[Desert]]
+    palette = "#4d4d4d:#ff2b2b:#55ff55:#ffff55:#87ceff:#ff55ff:#ffd700:#ffffff:#98fb98:#f0e68c:#cd853f:#ffdead:#ffa0a0:#f5deb3:#555555:#ff5555"
+    background_image = None
+    use_system_font = False
+    foreground_color = "#ffffff"
+    font = M+ 1m Medium 12
+    background_color = "#333333"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = 4bit
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
